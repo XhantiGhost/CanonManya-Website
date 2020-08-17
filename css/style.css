@@ -50,12 +50,12 @@ img {
 
 .section-title {
     color: whitesmoke;
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     margin-bottom: 10px;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .5rem;
+    letter-spacing: .4rem;
 }
 
 .section-title span {
