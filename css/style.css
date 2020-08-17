@@ -37,7 +37,6 @@ p {
 }
 
 .subtitle {
-    padding: 0 200px;
     text-align: center;
     font-size: 1.5rem;
     color: whitesmoke;
@@ -104,7 +103,7 @@ img {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: whitesmoke;
+	background-color: #1f1f1f;
 	transition: .3s ease background-color;
 }
 #header .nav-bar {
@@ -151,7 +150,7 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: white;
+	color: #1f1f1f;
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -238,8 +237,8 @@ img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: transparent;
-    opacity: 0.7;
+    background-color: #1f1f1f;
+    opacity: .7;
     z-index: -1;
 }
 
@@ -247,15 +246,15 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    justify-content: 50px;
+    justify-content: flex-start;
 }
 
 #hero h1 {
     display: block;
     width: fit-content;
     position: relative;
-    font-size: 3rem;
-    color: whitesmoke;
+    font-size: 2rem;
+    color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s;
     padding: 5px;
