@@ -26,7 +26,7 @@ a {
 }
 
 p {
-    color: white;
+    color: whitesmoke;
     font-size: 1.2rem;
     margin-top: 5px;
     line-height: 2.5em;
@@ -36,6 +36,13 @@ p {
 
 }
 
+.subtitle {
+    padding: 0 200px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -43,7 +50,7 @@ img {
 }
 
 .section-title {
-    color: white;
+    color: whitesmoke;
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 10px;
@@ -59,7 +66,7 @@ img {
 .cta {
     display: inline-block;
     border: 2px crimson solid;
-    color:white;
+    color: whitesmoke;
     background-color: transparent;
     padding: 10px 20px;
     font-size: 2rem;
@@ -72,7 +79,7 @@ img {
 
 .cta:hover {
     background-color: crimson;
-    color: white;
+    color: whitesmoke;
 }
 
 .brand {
@@ -97,7 +104,7 @@ img {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: whitesmoke;
 	transition: .3s ease background-color;
 }
 #header .nav-bar {
@@ -133,7 +140,7 @@ img {
 	font-weight: 500;
 	letter-spacing: .2rem;
 	text-decoration: none;
-	color: white;
+	color: whitesmoke;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -144,7 +151,7 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
+	color: white;
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -217,7 +224,7 @@ img {
 /* Hero Section */
 
 #hero {
-    background-image: url(../img/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
+    background-image: url(../img/markus-spiske-9R72Kd2oTGg-unsplash.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -231,7 +238,7 @@ img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     opacity: 0.7;
     z-index: -1;
 }
@@ -248,7 +255,7 @@ img {
     width: fit-content;
     position: relative;
     font-size: 3rem;
-    color: white;
+    color: whitesmoke;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s;
     padding: 5px;
@@ -314,7 +321,7 @@ img {
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
-    color: white;
+    color: whitesmoke;
 }
 
 #about .col-right p {
@@ -323,7 +330,7 @@ img {
 
 #about .col-right .cta {
     margin-bottom: 50px;
-    color: white;
+    color: whitesmoke;
     padding: 10px 20px;
     font-size: 2rem;
 }
@@ -332,7 +339,7 @@ img {
     height: 100%;
     width: 100%;
     position: relative;
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
 }
  
 #about .col-left .about-img::after{
@@ -358,7 +365,7 @@ img {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
     max-width: 1500px;
 
 }
@@ -369,7 +376,7 @@ img {
 }
 
 #services .services-title {
-    color: white;
+    color: whitesmoke;
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 10px;
@@ -398,7 +405,7 @@ img {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(../img/jakob-owens-uX7UOpU-884-unsplash.jpg);
+    background-image: url(../img/micheile-henderson-ZVprbBmT8QA-unsplash.jpg);
     background-size: cover;
     margin: 10px 5px;
     position: relative;
@@ -413,7 +420,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #14120f;
+    background-color: transparent;
     opacity: .9;
     z-index: -1;
 }
@@ -425,14 +432,14 @@ img {
 }
 
 #services .service-item h2 {
-    color: white;
+    color: whitesmoke;
     font-size: 2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 #services .service-item p {
-    color: white;
+    color:whitesmoke;
     text-align: left;
     }
 
@@ -441,3 +448,135 @@ img {
 /* End of services section styling */
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Start of our contact info section */
+
+#contact .contact {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contact-items {
+    width: 400px;
+}
+
+#contact .contact-item {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 30px 0 #14120f;
+    flex-direction: column;
+    transition: 2s ease-out box-shadow;
+}
+
+#contact .contact-item:hover {
+    box-shadow: 0px 0px 30px 0 whitesmoke;
+}
+
+#contact .icon {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+#contact .contact-info h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: whitesmoke;
+}
+
+/* End of our contact info section */
+
+/* Start of footer section */
+
+#footer {
+    background-color: #111111;
+}
+
+#footer .footer {
+    flex-direction: column;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    transition: 2s ease-out box-shadow;
+    border-radius: 10px;
+}
+
+#footer .social-item:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0 whitesmoke;
+}
+
+#footer .brand h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+/* End of footer section  */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Start of KeyFrames */
+
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal {
+    100% {
+        color: white;
+    }
+}
+
+@keyframes text_reveal_name {
+    100% {
+        color:crimson;
+        font-weight: 800;
+    }
+}
+
+/* End of KeyFrames */
