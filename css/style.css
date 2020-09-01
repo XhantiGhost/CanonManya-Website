@@ -81,15 +81,15 @@ img {
     color: whitesmoke;
 }
 
-.brand {
-    height: 70px;
-    width: 70px;    
+.brand h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: whitesmoke;
 }
 
 .brand h1 span {
     color: crimson;
 }
-
 
 /* Header Section */
 
